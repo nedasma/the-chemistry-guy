@@ -1,0 +1,23 @@
+22
+2Mg + O2 -2MgO
+2H2 + O2 -2H2O 
+Zn + CuSO4 -ZnSO4 + Cu
+BaCl2 + H2SO4 -BaSO4 + 2HCl
+Cu + HCl -nevyksta
+2AgNO3 + BaCl2 -Ba(NO3)2 + 2AgCl
+Na2SO4 + BaCl2 -BaSO4 + 2NaCl
+HCl + NaOH -NaCl + H2O
+Fe + Cl2 -FeCl3
+Na2O + H2O -2NaOH
+2HCl + CaO -CaCl2 + H2O
+KOH + HCl -KCl + H2O
+4Al + 3O2 -2Al2O3
+S + 3F2 -SF6
+2H2S + 3O2 -2SO2 + 2H2O
+H2SO4 + Au -nevyksta
+3H2SO4 + Cr -CR2(SO4)3 + 3H2
+2NH4NO3 + Ca(OH)2 -NH4OH + Ca(NO3)2
+Na2SiO3 + 2HCl -2NaCl + H2SiO3
+CH4 + 2O2 - CO2 + 2H2O
+Zn(NO3)2 + Na2CO3 -ZnCO3 + NaNO3
+SO2 + H2SO4 -nevyksta

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pagrindinis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Uzduotys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pagalbamain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pagalbauzd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reakcijos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Molmase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Molmase1var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Molmase2var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Molmase3var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Molmase4var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Molmase5var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Koncentracija.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Koncentracija1var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Koncentracija2var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Koncentracija3var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Masesdalis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Masesdalis1var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Masesdalis2var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Masesdalis3var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Iseiga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Iseiga1var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Iseiga2var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Iseiga3var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Klase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Periodine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pagrindinis.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Uzduotys.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pagalbamain.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pagalbauzd.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reakcijos.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Molmase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Molmase1var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Molmase2var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Molmase3var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Molmase4var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Molmase5var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Koncentracija.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Koncentracija1var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Koncentracija2var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Koncentracija3var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Masesdalis.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Masesdalis1var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Masesdalis2var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Masesdalis3var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iseiga.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iseiga1var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iseiga2var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iseiga3var.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Klase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Periodine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Elementai.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Metaluitampa.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Oksidacijoslaipsniai.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Druskos.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Druska.txt" />
+    <Text Include="Reakcijos.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pagalbamain.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagalbauzd.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagrindinis.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reakcijos.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uzduotys.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iseiga.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Koncentracija.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Koncentracija1var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Koncentracija2var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Koncentracija3var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masesdalis.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masesdalis1var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masesdalis2var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masesdalis3var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase1var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase2var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase3var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase4var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase5var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iseiga1var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iseiga2var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iseiga3var.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Periodine.resx">
+      <Filter>Source Files\Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

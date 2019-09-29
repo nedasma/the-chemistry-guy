@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D0CF5595-DC0E-4501-8B6E-37D43CAE5BE6}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Chemija</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Iseiga.cpp" />
+    <ClCompile Include="Iseiga1var.cpp" />
+    <ClCompile Include="Iseiga2var.cpp" />
+    <ClCompile Include="Iseiga3var.cpp" />
+    <ClCompile Include="Klase.cpp" />
+    <ClCompile Include="Koncentracija.cpp" />
+    <ClCompile Include="Koncentracija1var.cpp" />
+    <ClCompile Include="Koncentracija2var.cpp" />
+    <ClCompile Include="Koncentracija3var.cpp" />
+    <ClCompile Include="Masesdalis.cpp" />
+    <ClCompile Include="Masesdalis1var.cpp" />
+    <ClCompile Include="Masesdalis2var.cpp" />
+    <ClCompile Include="Masesdalis3var.cpp" />
+    <ClCompile Include="Molmase.cpp" />
+    <ClCompile Include="Molmase1var.cpp" />
+    <ClCompile Include="Molmase2var.cpp" />
+    <ClCompile Include="Molmase3var.cpp" />
+    <ClCompile Include="Molmase4var.cpp" />
+    <ClCompile Include="Molmase5var.cpp" />
+    <ClCompile Include="Pagalbamain.cpp" />
+    <ClCompile Include="Pagalbauzd.cpp" />
+    <ClCompile Include="Pagrindinis.cpp" />
+    <ClCompile Include="Periodine.cpp" />
+    <ClCompile Include="Reakcijos.cpp" />
+    <ClCompile Include="Uzduotys.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Iseiga.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Iseiga1var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Iseiga2var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Iseiga3var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Klase.h" />
+    <ClInclude Include="Koncentracija.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Koncentracija1var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Koncentracija2var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Koncentracija3var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Masesdalis.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Masesdalis1var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Masesdalis2var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Masesdalis3var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Molmase.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Molmase1var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Molmase2var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Molmase3var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Molmase4var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Molmase5var.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pagalbamain.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pagalbauzd.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pagrindinis.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Periodine.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Reakcijos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Uzduotys.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Iseiga.resx">
+      <DependentUpon>Iseiga.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iseiga1var.resx">
+      <DependentUpon>Iseiga1var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iseiga2var.resx">
+      <DependentUpon>Iseiga2var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iseiga3var.resx">
+      <DependentUpon>Iseiga3var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Koncentracija.resx">
+      <DependentUpon>Koncentracija.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Koncentracija1var.resx">
+      <DependentUpon>Koncentracija1var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Koncentracija2var.resx">
+      <DependentUpon>Koncentracija2var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Koncentracija3var.resx">
+      <DependentUpon>Koncentracija3var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masesdalis.resx">
+      <DependentUpon>Masesdalis.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masesdalis1var.resx">
+      <DependentUpon>Masesdalis1var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masesdalis2var.resx">
+      <DependentUpon>Masesdalis2var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masesdalis3var.resx">
+      <DependentUpon>Masesdalis3var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase.resx">
+      <DependentUpon>Molmase.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase1var.resx">
+      <DependentUpon>Molmase1var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase2var.resx">
+      <DependentUpon>Molmase2var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase3var.resx">
+      <DependentUpon>Molmase3var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase4var.resx">
+      <DependentUpon>Molmase4var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Molmase5var.resx">
+      <DependentUpon>Molmase5var.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagalbamain.resx">
+      <DependentUpon>Pagalbamain.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagalbauzd.resx">
+      <DependentUpon>Pagalbauzd.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagrindinis.resx">
+      <DependentUpon>Pagrindinis.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Periodine.resx">
+      <DependentUpon>Periodine.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reakcijos.resx">
+      <DependentUpon>Reakcijos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uzduotys.resx">
+      <DependentUpon>Uzduotys.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Druska.txt" />
+    <Text Include="Druskos.txt" />
+    <Text Include="Elementai.txt" />
+    <Text Include="Metaluitampa.txt" />
+    <Text Include="Oksidacijoslaipsniai.txt" />
+    <Text Include="Reakcijos.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib.1.0.dll">
+      <Guid>05bfd3f1-6319-4f30-b752-c7a22889bcc4</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib.1.0.dll">
+      <Guid>05bfd3f1-6319-4f30-b752-c7a22889bcc4</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>aximp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
